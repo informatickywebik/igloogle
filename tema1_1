@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang='cs'>
+
+<head>
+  <meta charset="utf-8">
+  <title>Igloogle</title>
+  <link rel='stylesheet' href='style0.css'>
+  <link rel='icon' href='icon.png' type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <a href='index.html'><img src='pictures/icon.png' class="logo"></a>
+    <br>
+  </header>
+
+
+
+</body>
+
+</html>
