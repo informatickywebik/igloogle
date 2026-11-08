@@ -87,6 +87,14 @@ a {
   margin-bottom: 8px;
 }
 
+.karta-aktivity {
+	background: white;
+	border-radius: 12px;
+	max-width: 900px;
+	margin: 20px auto;
+	padding: 20px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+
 footer {
 	background: white;
 	text-align: center;
