@@ -14,6 +14,11 @@
     <br>
   </header>
 
+  <div class="karta-aktivity">
+      <h2>Super! Poďme sa naučiť rozlišovať prehliadače a vyhľadávače.</h2>
+      <h3>Prečítaj si tieto vety a urči, či by mohli opisovať prehliadače alebo vyhľadávače:</h3>
+      <iframe src="https://learningapps.org/watch?app=12345678" allowfullscreen="true"></iframe>
+  </div>
 
 
 </body>
