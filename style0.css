@@ -1,0 +1,100 @@
+body{
+	background: #d2d8ed;
+	font-family: Monaco, monospace;
+	font-size: 20px;
+	margin: 0;
+  overflow: hidden;
+}
+
+header {
+  background-color: #324793;
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+.uvod, .temy{
+  text-align: center;
+  margin: 1%
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.uvod button,.temy button {
+  font-size: 20px;
+  font-family: Monaco, monospace;
+  background-color: #324793;
+  color: white;
+  margin: 1%;
+  padding: 30px 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navigacia button{
+  font-size: 20px;
+  font-family: Monaco, monospace;
+  background-color: #324793;
+  color: white;
+  margin: 1%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navigacia{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 70px; /* sits above the fixed footer */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2%;
+  box-sizing: border-box;
+  width: 100%;
+  pointer-events: none; /* allow clicks only on buttons */
+}
+
+.navigacia a{ /* enable pointer events for the anchors/buttons */
+  pointer-events: auto;
+}
+
+.navigacia .nav-right{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.select-correct{
+  background-color: #d4f8d4;
+  border: 2px solid #2e8b57;
+}
+
+.select-wrong{
+  background-color: #f8d4d4;
+  border: 2px solid #b22222;
+}
+
+.feedback{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+footer {
+	background: white;
+	text-align: center;
+	padding: 1%;
+	width: 98%;
+	bottom: 0;
+	position: fixed;
+
+	font-size: 15px;
+	border-top: 3px solid #324793;
+}
