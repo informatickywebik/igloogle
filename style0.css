@@ -3,7 +3,7 @@ body{
 	font-family: Monaco, monospace;
 	font-size: 20px;
 	margin: 0;
-  overflow: hidden;
+    overflow: hidden;
 	text-align: center;
 }
 
@@ -91,7 +91,7 @@ a {
 .karta-aktivity {
 	background: white;
 	border-radius: 12px;
-	max-width: 900px;
+	max-width: 1500px;
 	margin: 20px auto;
 	padding: 20px;
 	box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
